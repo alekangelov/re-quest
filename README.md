@@ -4,4 +4,4 @@
 
 TBA
 
-![ReQuest](./logos/1.jpg)
+![ReQuest](./logos/mark.png)
