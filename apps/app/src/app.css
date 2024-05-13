@@ -18,6 +18,23 @@
   --on-color: theme("colors.white");
 }
 
+
+html[data-theme="dark"] {
+  --primary-color: theme("colors.blue.500");
+  --secondary-color: theme("colors.green.500");
+  --tertiary-color: theme("colors.purple.500");
+  --success-color: theme("colors.green.500");
+  --warning-color: theme("colors.yellow.500");
+  --error-color: theme("colors.red.500");
+  --info-color: theme("colors.blue.500");
+  --background-color: theme("colors.slate.950");
+  --surface-color: theme("colors.slate.800");
+  --text-color: theme("colors.white");
+  --text-secondary-color: theme("colors.slate.200");
+  --text-tertiary-color: theme("colors.slate.400");
+  --on-color: theme("colors.white");
+}
+
 body {
   @apply bg-background text-text;
 }
