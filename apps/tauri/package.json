@@ -1,0 +1,7 @@
+{
+    "name": "@repo/desktop",
+    "scripts": {
+        "dev": "cargo tauri dev",
+        "build": "cargo tauri build"
+    }
+}
