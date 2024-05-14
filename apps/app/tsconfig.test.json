@@ -1,0 +1,8 @@
+{
+  "extends": "@repo/typescript-config/vitest.json",
+  "exclude": ["./src/**/*.tsx", "./src/**/*.ts"],
+  "include": ["./src/**/*.(test|spec).ts", "./src/**/*.(test|spec).tsx"],
+  "compilerOptions": {
+    "types": ["vitest/globals"]
+  }
+}
