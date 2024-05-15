@@ -28,14 +28,14 @@ function Separator() {
 export default function Sidebar() {
   return (
     <div class="flex items-stretch h-full">
-      <nav class={cns("bg-surface w-24 h-full")}>
-        <ul class={cns("flex flex-col items-center p-4 h-full")}>
+      <nav class={cns("bg-surface w-12 h-full rounded-md")}>
+        <ul class={cns("flex flex-col items-center p-2 h-full")}>
           <SingleItem flat>
             <img src="/images/mark.png" />
           </SingleItem>
           <Separator />
           <SingleItem>
-            <FiMenu size={36} />
+            <FiMenu size={12} />
           </SingleItem>
         </ul>
       </nav>

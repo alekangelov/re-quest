@@ -26,11 +26,11 @@ html[data-theme="dark"] {
   --warning-color: theme("colors.yellow.500");
   --error-color: theme("colors.red.500");
   --info-color: theme("colors.blue.500");
-  --background-color: theme("colors.slate.950");
-  --surface-color: theme("colors.slate.800");
+  --background-color: theme("colors.zinc.950");
+  --surface-color: theme("colors.zinc.900");
   --text-color: theme("colors.white");
-  --text-secondary-color: theme("colors.slate.200");
-  --text-tertiary-color: theme("colors.slate.400");
+  --text-secondary-color: theme("colors.zinc.200");
+  --text-tertiary-color: theme("colors.zinc.400");
   --on-color: theme("colors.white");
 }
 

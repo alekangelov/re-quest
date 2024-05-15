@@ -8,8 +8,6 @@
     "moduleResolution": "node",
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "jsx": "preserve",
-    "jsxImportSource": "solid-js",
     "allowJs": true,
     "strict": true,
     "noEmit": true,
@@ -17,6 +15,8 @@
     "isolatedModules": true,
     "paths": {
       "~/*": ["./src/*"]
-    }
+    },
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js"
   }
 }
